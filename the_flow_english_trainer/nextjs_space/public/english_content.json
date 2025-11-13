@@ -1,0 +1,4294 @@
+{
+  "metadata": {
+    "source": "English by Lorreine Gall - Level 1 Part A",
+    "version": "1.0",
+    "total_lessons": 19,
+    "copyright": "Copyright © 2024 by Lorreine Gall"
+  },
+  "lessons": [
+    {
+      "lesson_id": 1,
+      "lesson_number": 1,
+      "difficulty": "Beginner",
+      "title": "Breakfast and Basic Foods",
+      "topics": [
+        "Food",
+        "Drinks",
+        "Basic Verbs",
+        "Pronouns"
+      ],
+      "vocabulary": [
+        {
+          "word": "drink",
+          "definition": "to consume liquid",
+          "translation_pt": "beber",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "eat",
+          "definition": "to consume food",
+          "translation_pt": "comer",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "coffee",
+          "definition": "a hot beverage made from roasted beans",
+          "translation_pt": "café",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "tea",
+          "definition": "a hot beverage made from leaves",
+          "translation_pt": "chá",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "milk",
+          "definition": "white liquid from cows",
+          "translation_pt": "leite",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "juice",
+          "definition": "liquid from fruits",
+          "translation_pt": "suco",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "water",
+          "definition": "clear liquid essential for life",
+          "translation_pt": "água",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "soda",
+          "definition": "carbonated soft drink",
+          "translation_pt": "refrigerante",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "cereal",
+          "definition": "breakfast grain food",
+          "translation_pt": "cereal",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "egg",
+          "definition": "oval food from chickens",
+          "translation_pt": "ovo",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "cake",
+          "definition": "sweet baked dessert",
+          "translation_pt": "bolo",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "jam",
+          "definition": "fruit preserve spread",
+          "translation_pt": "geleia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bread",
+          "definition": "baked food made from flour",
+          "translation_pt": "pão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "cheese",
+          "definition": "dairy product made from milk",
+          "translation_pt": "queijo",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "ham",
+          "definition": "meat from pig",
+          "translation_pt": "presunto",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "and",
+          "definition": "connecting word",
+          "translation_pt": "e",
+          "part_of_speech": "conjunction"
+        },
+        {
+          "word": "I",
+          "definition": "first person pronoun",
+          "translation_pt": "eu",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "you",
+          "definition": "second person pronoun",
+          "translation_pt": "você",
+          "part_of_speech": "pronoun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "thank you",
+          "translation": "obrigado",
+          "context": "expressing gratitude"
+        },
+        {
+          "phrase": "thanks",
+          "translation": "obrigado",
+          "context": "informal gratitude"
+        },
+        {
+          "phrase": "please",
+          "translation": "por favor",
+          "context": "polite request"
+        },
+        {
+          "phrase": "hi",
+          "translation": "oi",
+          "context": "informal greeting"
+        },
+        {
+          "phrase": "hello",
+          "translation": "olá",
+          "context": "formal greeting"
+        },
+        {
+          "phrase": "goodbye",
+          "translation": "tchau",
+          "context": "farewell"
+        },
+        {
+          "phrase": "bye",
+          "translation": "tchau",
+          "context": "informal farewell"
+        },
+        {
+          "phrase": "What's for breakfast?",
+          "translation": "O que tem para o café da manhã?",
+          "context": "asking about breakfast"
+        },
+        {
+          "phrase": "I'm craving",
+          "translation": "Estou com vontade de",
+          "context": "expressing desire for food"
+        },
+        {
+          "phrase": "Would you like some coffee?",
+          "translation": "Você gostaria de café?",
+          "context": "offering coffee"
+        },
+        {
+          "phrase": "Don't skip breakfast!",
+          "translation": "Não pule o café da manhã!",
+          "context": "health advice"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "You eat.",
+          "translation": "Você come.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I drink.",
+          "translation": "Eu bebo.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You drink milk.",
+          "translation": "Você bebe leite.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I drink coffee.",
+          "translation": "Eu bebo café.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You eat cake.",
+          "translation": "Você come bolo.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I eat ham.",
+          "translation": "Eu como presunto.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I drink coffee and milk.",
+          "translation": "Eu bebo café e leite.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You drink tea and juice.",
+          "translation": "Você bebe chá e suco.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I eat cake and I drink soda.",
+          "translation": "Eu como bolo e bebo refrigerante.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I eat jam and you eat bread.",
+          "translation": "Eu como geleia e você come pão.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I eat bread and ham.",
+          "translation": "Eu como pão e presunto.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I eat cheese and you eat ham.",
+          "translation": "Eu como queijo e você come presunto.",
+          "difficulty": "intermediate"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "fill_in_blank",
+          "instructions": "Complete the sentences with the correct words",
+          "questions": [
+            {
+              "question": "I ____ bread.",
+              "answer": "eat"
+            },
+            {
+              "question": "You ____ soda.",
+              "answer": "drink"
+            },
+            {
+              "question": "I ____ coffee and you ____ cake.",
+              "answer": [
+                "drink",
+                "eat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "translation",
+          "instructions": "Translate from Portuguese to English",
+          "questions": [
+            {
+              "question": "Eu como pão e queijo",
+              "answer": "I eat bread and cheese"
+            },
+            {
+              "question": "Você bebe suco e chá",
+              "answer": "You drink juice and tea"
+            },
+            {
+              "question": "Você come bolo e eu como pão",
+              "answer": "You eat cake and I eat bread"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "What do you eat for breakfast?",
+        "Do you drink coffee or tea?",
+        "What is your favorite drink?",
+        "Do you like bread and cheese?"
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "lesson_number": 2,
+      "difficulty": "Beginner",
+      "title": "Meals and Food Preferences",
+      "topics": [
+        "Food",
+        "Meals",
+        "Time expressions",
+        "Likes and dislikes"
+      ],
+      "vocabulary": [
+        {
+          "word": "like",
+          "definition": "to enjoy or prefer",
+          "translation_pt": "gostar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "potato",
+          "definition": "starchy vegetable",
+          "translation_pt": "batata",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "tomato",
+          "definition": "red fruit used as vegetable",
+          "translation_pt": "tomate",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "butter",
+          "definition": "dairy spread made from cream",
+          "translation_pt": "manteiga",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "chicken",
+          "definition": "poultry meat",
+          "translation_pt": "frango",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "meat",
+          "definition": "beef",
+          "translation_pt": "carne de boi",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pork",
+          "definition": "meat from pig",
+          "translation_pt": "carne de porco",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "fish",
+          "definition": "seafood",
+          "translation_pt": "peixe",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bacon",
+          "definition": "cured pork strips",
+          "translation_pt": "bacon",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "vegetables",
+          "definition": "edible plants",
+          "translation_pt": "legumes",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "rice",
+          "definition": "grain staple food",
+          "translation_pt": "arroz",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "beans",
+          "definition": "legume seeds",
+          "translation_pt": "feijão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pasta",
+          "definition": "Italian noodles",
+          "translation_pt": "macarrão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "ice cream",
+          "definition": "frozen dessert",
+          "translation_pt": "sorvete",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pie",
+          "definition": "baked pastry dessert",
+          "translation_pt": "torta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "candy",
+          "definition": "sweet treat",
+          "translation_pt": "bala/doce",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pudding",
+          "definition": "creamy dessert",
+          "translation_pt": "pudim",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "muffin",
+          "definition": "small cake",
+          "translation_pt": "bolinho",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "wine",
+          "definition": "alcoholic grape beverage",
+          "translation_pt": "vinho",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "salt",
+          "definition": "seasoning mineral",
+          "translation_pt": "sal",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pepper",
+          "definition": "spicy seasoning",
+          "translation_pt": "pimenta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "sugar",
+          "definition": "sweet substance",
+          "translation_pt": "açúcar",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "glass",
+          "definition": "drinking vessel",
+          "translation_pt": "copo",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "cup",
+          "definition": "small drinking vessel",
+          "translation_pt": "xícara",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "with",
+          "definition": "accompanied by",
+          "translation_pt": "com",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "a/an",
+          "definition": "indefinite article",
+          "translation_pt": "um/uma",
+          "part_of_speech": "article"
+        },
+        {
+          "word": "to",
+          "definition": "preposition of direction",
+          "translation_pt": "para",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "of",
+          "definition": "belonging to",
+          "translation_pt": "de",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "don't",
+          "definition": "do not - negative form",
+          "translation_pt": "não",
+          "part_of_speech": "auxiliary verb"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "in the morning",
+          "translation": "de manhã",
+          "context": "time of day"
+        },
+        {
+          "phrase": "in the afternoon",
+          "translation": "de tarde",
+          "context": "time of day"
+        },
+        {
+          "phrase": "in the evening",
+          "translation": "de noite/chegada",
+          "context": "time of day"
+        },
+        {
+          "phrase": "at night",
+          "translation": "de noite/saída",
+          "context": "time of day"
+        },
+        {
+          "phrase": "for breakfast",
+          "translation": "no café da manhã",
+          "context": "meal time"
+        },
+        {
+          "phrase": "for lunch",
+          "translation": "no almoço",
+          "context": "meal time"
+        },
+        {
+          "phrase": "for dinner",
+          "translation": "no jantar",
+          "context": "meal time"
+        },
+        {
+          "phrase": "I'd like to order pasta",
+          "translation": "Eu gostaria de pedir macarrão",
+          "context": "restaurant"
+        },
+        {
+          "phrase": "Can I see the menu please?",
+          "translation": "Posso ver o cardápio, por favor?",
+          "context": "restaurant"
+        },
+        {
+          "phrase": "Could I have the bill please?",
+          "translation": "Pode me dar a conta, por favor?",
+          "context": "restaurant"
+        },
+        {
+          "phrase": "I'm full, thank you",
+          "translation": "Estou satisfeito, obrigado",
+          "context": "after eating"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I like to eat pasta at night.",
+          "translation": "Eu gosto de comer macarrão a noite.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't eat ice cream in the morning.",
+          "translation": "Eu não como sorvete de manhã.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You drink wine and you eat meat for lunch.",
+          "translation": "Você bebe vinho e come carne no almoço.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I don't like to eat potatoes.",
+          "translation": "Eu não gosto de comer batatas.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You don't like to drink a glass of soda.",
+          "translation": "Você não gosta de beber um copo de refrigerante.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I like to eat rice and beans.",
+          "translation": "Eu gosto de comer arroz e feijão.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You drink a cup of coffee in the morning.",
+          "translation": "Você bebe uma xícara de café de manhã.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I eat cakes and puddings with you.",
+          "translation": "Eu como bolos e pudins com você.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You don't like to eat fish and bacon for lunch.",
+          "translation": "Você não gosta de comer peixe e bacon no almoço.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I eat bread and butter and I drink coffee and milk.",
+          "translation": "Eu como pão com manteiga e bebo café com leite.",
+          "difficulty": "advanced"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "unscramble",
+          "instructions": "Unscramble the words to make correct sentences",
+          "questions": [
+            {
+              "question": "At, I, drink, night, milk",
+              "answer": "I drink milk at night"
+            },
+            {
+              "question": "Eat, pasta, don't, you",
+              "answer": "You don't eat pasta"
+            },
+            {
+              "question": "Soda, like, you, to, don't, drink",
+              "answer": "You don't like to drink soda"
+            }
+          ]
+        },
+        {
+          "type": "translation",
+          "instructions": "Translate the sentences",
+          "questions": [
+            {
+              "question": "You and I like to drink soda and eat fish",
+              "answer": "Você e eu gostamos de beber refrigerante e comer peixe"
+            },
+            {
+              "question": "You don't eat rice and beans in the morning",
+              "answer": "Você não come arroz e feijão de manhã"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "What do you like to eat for breakfast?",
+        "Do you prefer coffee or tea in the morning?",
+        "What is your favorite meal of the day?",
+        "Do you like to eat vegetables?",
+        "What do you drink with your meals?"
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "lesson_number": 3,
+      "difficulty": "Beginner",
+      "title": "Playing and Family",
+      "topics": [
+        "Sports",
+        "Musical Instruments",
+        "Family",
+        "Toys",
+        "Activities"
+      ],
+      "vocabulary": [
+        {
+          "word": "play",
+          "definition": "to engage in activity for enjoyment",
+          "translation_pt": "jogar/tocar/brincar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "soccer",
+          "definition": "football sport",
+          "translation_pt": "futebol",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "basketball",
+          "definition": "sport with ball and hoop",
+          "translation_pt": "basquete",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "volleyball",
+          "definition": "net sport with ball",
+          "translation_pt": "vôlei",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "chess",
+          "definition": "strategy board game",
+          "translation_pt": "xadrez",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "electric guitar",
+          "definition": "amplified string instrument",
+          "translation_pt": "guitarra",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "guitar",
+          "definition": "acoustic string instrument",
+          "translation_pt": "violão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "piano",
+          "definition": "keyboard instrument",
+          "translation_pt": "piano",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "keyboard",
+          "definition": "electronic piano",
+          "translation_pt": "teclado",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "violin",
+          "definition": "string instrument with bow",
+          "translation_pt": "violino",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "drums",
+          "definition": "percussion instruments",
+          "translation_pt": "bateria",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "toys",
+          "definition": "children's playthings",
+          "translation_pt": "brinquedos",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "dolls",
+          "definition": "toy figures",
+          "translation_pt": "bonecas",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "blocks",
+          "definition": "building toys",
+          "translation_pt": "blocos",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "friends",
+          "definition": "close companions",
+          "translation_pt": "amigos",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "my",
+          "definition": "possessive pronoun first person",
+          "translation_pt": "meu",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "your",
+          "definition": "possessive pronoun second person",
+          "translation_pt": "seu",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "father/dad",
+          "definition": "male parent",
+          "translation_pt": "pai",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "mother/mom",
+          "definition": "female parent",
+          "translation_pt": "mãe",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "brother",
+          "definition": "male sibling",
+          "translation_pt": "irmão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "sister",
+          "definition": "female sibling",
+          "translation_pt": "irmã",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "cousin",
+          "definition": "child of aunt or uncle",
+          "translation_pt": "primo/prima",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "child",
+          "definition": "young person or offspring",
+          "translation_pt": "criança/filho",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "children",
+          "definition": "plural of child",
+          "translation_pt": "crianças/filhos",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "son",
+          "definition": "male child",
+          "translation_pt": "filho",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "daughter",
+          "definition": "female child",
+          "translation_pt": "filha",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "here",
+          "definition": "in this place",
+          "translation_pt": "aqui",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "there",
+          "definition": "in that place",
+          "translation_pt": "lá",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "alone",
+          "definition": "by oneself",
+          "translation_pt": "sozinho",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "video game",
+          "definition": "electronic game",
+          "translation_pt": "vídeo game",
+          "part_of_speech": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Good Morning",
+          "translation": "Bom dia",
+          "context": "morning greeting"
+        },
+        {
+          "phrase": "Good Afternoon",
+          "translation": "Boa tarde",
+          "context": "afternoon greeting"
+        },
+        {
+          "phrase": "Good Evening",
+          "translation": "Boa noite/chegada",
+          "context": "evening greeting"
+        },
+        {
+          "phrase": "Good Night",
+          "translation": "Boa noite/saída",
+          "context": "night farewell"
+        },
+        {
+          "phrase": "Excuse Me",
+          "translation": "com licença/não entendi",
+          "context": "polite interruption"
+        },
+        {
+          "phrase": "You're Welcome",
+          "translation": "de nada",
+          "context": "response to thanks"
+        },
+        {
+          "phrase": "Sorry",
+          "translation": "desculpe",
+          "context": "apology"
+        },
+        {
+          "phrase": "Like Father, Like son",
+          "translation": "Tal pai, tal filho",
+          "context": "idiom"
+        },
+        {
+          "phrase": "He's a chip off the old block",
+          "translation": "Ele é igualzinho ao pai",
+          "context": "idiom"
+        },
+        {
+          "phrase": "She's the black sheep of the family",
+          "translation": "Ela é a ovelha negra da família",
+          "context": "idiom"
+        },
+        {
+          "phrase": "I decided to play along with the joke",
+          "translation": "Eu decidi participar da piada",
+          "context": "idiom"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "Do you like to play the guitar?",
+          "translation": "Você gosta de tocar guitarra?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't like to play alone.",
+          "translation": "Eu não gosto de brincar sozinho.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You like to play with your dolls.",
+          "translation": "Você gosta de brincar com suas bonecas.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't play soccer with my brother.",
+          "translation": "Eu não jogo futebol com meu irmão.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you play the piano?",
+          "translation": "Você toca piano?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I play chess with my sister.",
+          "translation": "Eu jogo xadrez com minha irmã.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You like to play blocks with your mother.",
+          "translation": "Você gosta de montar blocos com sua mãe.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I don't like to play basketball at night.",
+          "translation": "Eu não gosto de jogar basquete a noite.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you play alone?",
+          "translation": "Você brinca sozinho?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You don't like to play the drums.",
+          "translation": "Você não gosta de tocar bateria.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I play chess with my friends.",
+          "translation": "Eu jogo xadrez com meus amigos.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you play the keyboard?",
+          "translation": "Você toca teclado?",
+          "difficulty": "beginner"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Asking about piano playing",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you play the piano here?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes I do, I play the piano here at night."
+            }
+          ]
+        },
+        {
+          "context": "Asking about food preferences",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you like to eat cereal in the morning?"
+            },
+            {
+              "speaker": "B",
+              "text": "No I don't, I don't like to eat cereal in the morning."
+            }
+          ]
+        },
+        {
+          "context": "Asking about drinks",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you drink a cup of coffee and milk at night?"
+            },
+            {
+              "speaker": "B",
+              "text": "No I don't, I drink juice at night."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "translation",
+          "instructions": "Translate from Portuguese to English",
+          "questions": [
+            {
+              "question": "Eu gosto de jogar futebol",
+              "answer": "I like to play soccer"
+            },
+            {
+              "question": "Você gosta de brincar com seu irmão?",
+              "answer": "Do you like to play with your brother?"
+            },
+            {
+              "question": "Você toca guitarra a noite?",
+              "answer": "Do you play the guitar at night?"
+            }
+          ]
+        },
+        {
+          "type": "substitution",
+          "instructions": "Replace the highlighted word with alternatives",
+          "questions": [
+            {
+              "question": "I don't like to play chess with you.",
+              "word_to_replace": "chess",
+              "alternatives": [
+                "soccer",
+                "basketball",
+                "volleyball"
+              ]
+            },
+            {
+              "question": "Do you play alone?",
+              "word_to_replace": "alone",
+              "alternatives": [
+                "here",
+                "there",
+                "with friends"
+              ]
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "Do you eat bread for breakfast?",
+        "Do you like to play soccer at night?",
+        "Do you drink juice and soda for dinner?",
+        "Do you play the guitar?",
+        "Do you like to eat pie in the afternoon?",
+        "Do you play dolls with your daughter?",
+        "Do you eat pasta and drink juice in the evening?",
+        "Do you like to play alone?",
+        "Do you like to eat ice cream with your brother?",
+        "Do you play with your father and mother?"
+      ]
+    },
+    {
+      "lesson_id": 4,
+      "lesson_number": 4,
+      "difficulty": "Beginner",
+      "title": "School, Work and Places",
+      "topics": [
+        "School",
+        "Work",
+        "Places",
+        "Languages",
+        "Daily activities"
+      ],
+      "vocabulary": [
+        {
+          "word": "study",
+          "definition": "to learn by reading and practice",
+          "translation_pt": "estudar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "speak",
+          "definition": "to talk or communicate verbally",
+          "translation_pt": "falar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "work",
+          "definition": "to do a job or labor",
+          "translation_pt": "trabalhar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "go",
+          "definition": "to move to a place",
+          "translation_pt": "ir",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "teacher",
+          "definition": "person who educates",
+          "translation_pt": "professor",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "school",
+          "definition": "place of education",
+          "translation_pt": "escola",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "home",
+          "definition": "place where one lives",
+          "translation_pt": "casa",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "downtown",
+          "definition": "city center",
+          "translation_pt": "centro da cidade",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "park",
+          "definition": "public green space",
+          "translation_pt": "parque",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "movies",
+          "definition": "cinema or films",
+          "translation_pt": "cinema/filmes",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bank",
+          "definition": "financial institution",
+          "translation_pt": "banco",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "supermarket",
+          "definition": "large grocery store",
+          "translation_pt": "super mercado",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "drugstore",
+          "definition": "pharmacy",
+          "translation_pt": "farmácia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "store",
+          "definition": "shop",
+          "translation_pt": "loja",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "gas station",
+          "definition": "place to buy fuel",
+          "translation_pt": "posto de gasolina",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "grandfather",
+          "definition": "father's or mother's father",
+          "translation_pt": "avô",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "grandmother",
+          "definition": "father's or mother's mother",
+          "translation_pt": "avó",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "English",
+          "definition": "language of England and USA",
+          "translation_pt": "inglês",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "Portuguese",
+          "definition": "language of Portugal and Brazil",
+          "translation_pt": "português",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "Spanish",
+          "definition": "language of Spain",
+          "translation_pt": "espanhol",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "Italian",
+          "definition": "language of Italy",
+          "translation_pt": "italiano",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "French",
+          "definition": "language of France",
+          "translation_pt": "francês",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "family",
+          "definition": "group of related people",
+          "translation_pt": "família",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "now",
+          "definition": "at this moment",
+          "translation_pt": "agora",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "today",
+          "definition": "this day",
+          "translation_pt": "hoje",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "yesterday",
+          "definition": "the day before today",
+          "translation_pt": "ontem",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "tomorrow",
+          "definition": "the day after today",
+          "translation_pt": "amanhã",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "but",
+          "definition": "however, except",
+          "translation_pt": "mas",
+          "part_of_speech": "conjunction"
+        },
+        {
+          "word": "only",
+          "definition": "just, solely",
+          "translation_pt": "somente",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "at",
+          "definition": "preposition for location",
+          "translation_pt": "em/na/no",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "in",
+          "definition": "preposition for inside",
+          "translation_pt": "em/na/no",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "on weekends",
+          "definition": "Saturday and Sunday",
+          "translation_pt": "nos fins de semana",
+          "part_of_speech": "phrase"
+        },
+        {
+          "word": "every day",
+          "definition": "each day",
+          "translation_pt": "todo dia",
+          "part_of_speech": "phrase"
+        },
+        {
+          "word": "with me",
+          "definition": "accompanied by me",
+          "translation_pt": "comigo",
+          "part_of_speech": "phrase"
+        },
+        {
+          "word": "overtime",
+          "definition": "extra work hours",
+          "translation_pt": "hora extra",
+          "part_of_speech": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "May I go to the restroom?",
+          "translation": "Posso ir ao banheiro?",
+          "context": "asking permission"
+        },
+        {
+          "phrase": "I need to take a day off",
+          "translation": "Preciso tirar de um dia de folga",
+          "context": "work"
+        },
+        {
+          "phrase": "Can you give me a hand on this?",
+          "translation": "Pode me ajudar com isso?",
+          "context": "requesting help"
+        },
+        {
+          "phrase": "How was your day?",
+          "translation": "Como foi seu dia?",
+          "context": "greeting"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I like to go to school with my mother.",
+          "translation": "Eu gosto de ir para escola com a minha mãe.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you speak Italian?",
+          "translation": "Você fala Italiano?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I go to the gas station alone.",
+          "translation": "Eu vou ao posto de gasolina sozinho.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You don't like to speak Portuguese.",
+          "translation": "Você não gosta de falar português.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I speak with you at the park.",
+          "translation": "Eu falo com você no parque.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You study at school.",
+          "translation": "Você estuda na escola.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I study at school with my sister.",
+          "translation": "Eu estudo na escola com minha irmã.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you go to the drugstore at night?",
+          "translation": "Você vai a farmácia a noite?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you work at the bank?",
+          "translation": "Você trabalha no banco?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "You don't go to the movies.",
+          "translation": "Você não vai ao cinema.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Do you go home now?",
+          "translation": "Você vai pra casa agora?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I study downtown.",
+          "translation": "Eu estudo no centro da cidade.",
+          "difficulty": "intermediate"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Asking about going downtown",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you go downtown in the evening?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes I do, I go downtown with my grandmother."
+            }
+          ]
+        },
+        {
+          "context": "Asking about studying Portuguese",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you study Portuguese at school in the afternoon?"
+            },
+            {
+              "speaker": "B",
+              "text": "No I don't, I study Portuguese in the morning."
+            }
+          ]
+        },
+        {
+          "context": "Asking about work",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you work at the bank with your daughter?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes I do, I work with my daughter every day."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "translation",
+          "instructions": "Translate from English to Portuguese",
+          "questions": [
+            {
+              "question": "I work at the bank in the morning",
+              "answer": "Eu trabalho no banco de manhã"
+            },
+            {
+              "question": "Do you speak Italian in the evening?",
+              "answer": "Você fala italiano a noite?"
+            },
+            {
+              "question": "I go to the gas station alone",
+              "answer": "Eu vou ao posto de gasolina sozinho"
+            }
+          ]
+        },
+        {
+          "type": "substitution",
+          "instructions": "Replace the highlighted word",
+          "questions": [
+            {
+              "question": "I don't like to study here alone.",
+              "word_to_replace": "study",
+              "alternatives": [
+                "work",
+                "speak",
+                "play"
+              ]
+            },
+            {
+              "question": "Do you study Portuguese or English?",
+              "word_to_replace": "Portuguese",
+              "alternatives": [
+                "Spanish",
+                "Italian",
+                "French"
+              ]
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "Do you study alone or with your husband?",
+        "Do you like to go downtown?",
+        "Do you speak Portuguese at work?",
+        "Do you go to school everyday at night?",
+        "Do you like to eat meat, pork or fish for dinner?",
+        "Do you play basketball at the park?",
+        "Do you like to drink wine with your mother?",
+        "Do you go to the drugstore every day with your son?",
+        "Do you eat cake and bread for lunch?",
+        "Do you play blocks with your children?",
+        "Do you go to the gas station every day in the morning?",
+        "Do you like to eat ice cream or candy?"
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "lesson_number": 5,
+      "difficulty": "Beginner",
+      "title": "Preferences and Fruits",
+      "topics": [
+        "Fruits",
+        "Preferences",
+        "Animals",
+        "Places"
+      ],
+      "vocabulary": [
+        {
+          "word": "want",
+          "definition": "to desire or wish for",
+          "translation_pt": "querer",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "sleep",
+          "definition": "to rest with closed eyes",
+          "translation_pt": "dormir",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "prefer",
+          "definition": "to like better",
+          "translation_pt": "preferir",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "apple",
+          "definition": "round red or green fruit",
+          "translation_pt": "maçã",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "orange",
+          "definition": "citrus fruit",
+          "translation_pt": "laranja",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "banana",
+          "definition": "yellow curved fruit",
+          "translation_pt": "banana",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "mango",
+          "definition": "tropical sweet fruit",
+          "translation_pt": "manga",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pineapple",
+          "definition": "spiky tropical fruit",
+          "translation_pt": "abacaxi",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "kiwi",
+          "definition": "small brown fuzzy fruit",
+          "translation_pt": "kiwi",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "watermelon",
+          "definition": "large green fruit with red flesh",
+          "translation_pt": "melancia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "melon",
+          "definition": "sweet round fruit",
+          "translation_pt": "melão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "lemon",
+          "definition": "sour yellow citrus",
+          "translation_pt": "limão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "grape",
+          "definition": "small round fruit in bunches",
+          "translation_pt": "uva",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "avocado",
+          "definition": "green creamy fruit",
+          "translation_pt": "abacate",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "big",
+          "definition": "large in size",
+          "translation_pt": "grande",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "small",
+          "definition": "little in size",
+          "translation_pt": "pequeno",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "this",
+          "definition": "demonstrative for near object",
+          "translation_pt": "isto",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "that",
+          "definition": "demonstrative for far object",
+          "translation_pt": "aquilo",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "yes",
+          "definition": "affirmative response",
+          "translation_pt": "sim",
+          "part_of_speech": "interjection"
+        },
+        {
+          "word": "no",
+          "definition": "negative response",
+          "translation_pt": "não",
+          "part_of_speech": "interjection"
+        },
+        {
+          "word": "where",
+          "definition": "question word for location",
+          "translation_pt": "onde",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "too",
+          "definition": "also, as well",
+          "translation_pt": "também",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "also",
+          "definition": "in addition",
+          "translation_pt": "também",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "cat",
+          "definition": "small feline pet",
+          "translation_pt": "gato",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "dog",
+          "definition": "canine pet",
+          "translation_pt": "cão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "beach",
+          "definition": "sandy shore by ocean",
+          "translation_pt": "praia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "fruit",
+          "definition": "edible plant product",
+          "translation_pt": "fruta",
+          "part_of_speech": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "See you",
+          "translation": "Até mais",
+          "context": "informal goodbye"
+        },
+        {
+          "phrase": "See you later",
+          "translation": "Até mais",
+          "context": "goodbye"
+        },
+        {
+          "phrase": "See you tomorrow",
+          "translation": "Até amanhã",
+          "context": "goodbye"
+        },
+        {
+          "phrase": "Nice to see you",
+          "translation": "Bom te ver",
+          "context": "greeting"
+        },
+        {
+          "phrase": "If you prefer, we can go tomorrow",
+          "translation": "Se você preferir, podemos ir amanhã",
+          "context": "suggesting"
+        },
+        {
+          "phrase": "I slept like a dog yesterday",
+          "translation": "Eu dormi como uma pedra ontem",
+          "context": "idiom"
+        },
+        {
+          "phrase": "I want you to help me today",
+          "translation": "Quero que você me ajude hoje",
+          "context": "request"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I prefer to sleep in the afternoon.",
+          "translation": "Eu prefiro dormir a tarde.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Do you want to go home now?",
+          "translation": "Você quer ir pra casa agora?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't like to sleep in the morning.",
+          "translation": "Não gosto de dormir de manhã.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Do you prefer to eat bananas or avocados for breakfast?",
+          "translation": "Você prefere comer bananas ou abacates no café da manhã?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I like to go to the park with my dog.",
+          "translation": "Gosto de ir no parque com meu cachorro.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I like to eat pineapple too.",
+          "translation": "Eu também gosto de comer abacaxi.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I also like to study Portuguese.",
+          "translation": "Eu também gosto de estudar português.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Do you like this big book?",
+          "translation": "Você gosta desse livro grande?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I have a small cat at home.",
+          "translation": "Eu tenho um gato pequeno em casa.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I don't like that bike.",
+          "translation": "Eu não gosto daquela bicicleta.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you prefer to drink a lemon juice?",
+          "translation": "Você prefere beber um suco de limão?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I have to go now, see you.",
+          "translation": "Preciso ir agora, até mais.",
+          "difficulty": "intermediate"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Preferences",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you prefer to study Italian or Spanish?"
+            },
+            {
+              "speaker": "B",
+              "text": "I prefer Italian."
+            }
+          ]
+        },
+        {
+          "context": "Work schedule",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you work in the afternoon?"
+            },
+            {
+              "speaker": "B",
+              "text": "No, I work in the morning with my sister."
+            }
+          ]
+        },
+        {
+          "context": "Drinks",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you like to drink watermelon juice?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, I do, everyday."
+            }
+          ]
+        },
+        {
+          "context": "Playing sports",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you want to play basketball with me?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, I want to play now!"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "translation",
+          "instructions": "Translate from Portuguese to English",
+          "questions": [
+            {
+              "question": "Eu quero ir para a praia amanhã",
+              "answer": "I want to go to the beach tomorrow"
+            },
+            {
+              "question": "Você gosta de comer frutas a noite?",
+              "answer": "Do you like to eat fruits at night?"
+            },
+            {
+              "question": "Onde você quer ir com seu irmão?",
+              "answer": "Where do you want to go with your brother?"
+            }
+          ]
+        },
+        {
+          "type": "unscramble",
+          "instructions": "Unscramble the words",
+          "questions": [
+            {
+              "question": "My, Dog, I, to, park, go, have, to the, with",
+              "answer": "I have to go to the park with my dog"
+            },
+            {
+              "question": "Ham, do, eat, to, or, prefer, you, cheese",
+              "answer": "Do you prefer to eat ham or cheese"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "Do you prefer to eat salad or pasta at night?",
+        "Do you like to play soccer or do you prefer basketball?",
+        "Do you want to go to the supermarket today?",
+        "Do you speak with your brother everyday?",
+        "Do you work on weekends?",
+        "Do you sleep with your husband at night?",
+        "Do you want an apple pie or ice cream?",
+        "Do you prefer to have cats or dogs at home?",
+        "Do you want fruits or do you prefer candy?",
+        "Do you study with a Spanish teacher there?"
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "lesson_number": 6,
+      "difficulty": "Intermediate",
+      "title": "Needs and Activities",
+      "topics": [
+        "Necessities",
+        "Time",
+        "Languages",
+        "Places",
+        "Food preparation"
+      ],
+      "vocabulary": [
+        {
+          "word": "need",
+          "definition": "to require or must have",
+          "translation_pt": "precisar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "have",
+          "definition": "to possess or own",
+          "translation_pt": "ter",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "where",
+          "definition": "in what place",
+          "translation_pt": "onde",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "German",
+          "definition": "language of Germany",
+          "translation_pt": "alemão",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "Chinese",
+          "definition": "language of China",
+          "translation_pt": "chinês",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "time",
+          "definition": "hours and minutes; duration",
+          "translation_pt": "hora/tempo",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "every",
+          "definition": "each one, all",
+          "translation_pt": "todo",
+          "part_of_speech": "determiner"
+        },
+        {
+          "word": "office",
+          "definition": "place of work",
+          "translation_pt": "escritório",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bookstore",
+          "definition": "shop that sells books",
+          "translation_pt": "livraria",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "gym",
+          "definition": "place for exercise",
+          "translation_pt": "academia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "how",
+          "definition": "in what way",
+          "translation_pt": "como",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "book",
+          "definition": "written work with pages",
+          "translation_pt": "livro",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "rare",
+          "definition": "meat cooked lightly",
+          "translation_pt": "mal passado",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "medium",
+          "definition": "meat cooked moderately",
+          "translation_pt": "ao ponto",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "well done",
+          "definition": "meat fully cooked",
+          "translation_pt": "bem passado",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "hot",
+          "definition": "high temperature",
+          "translation_pt": "quente",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "cold",
+          "definition": "low temperature",
+          "translation_pt": "gelado/frio",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "warm",
+          "definition": "moderately hot",
+          "translation_pt": "morno",
+          "part_of_speech": "adjective"
+        },
+        {
+          "word": "steak",
+          "definition": "slice of meat",
+          "translation_pt": "bife",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "snack",
+          "definition": "small meal between meals",
+          "translation_pt": "lanche",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "some",
+          "definition": "a few, a quantity",
+          "translation_pt": "alguns",
+          "part_of_speech": "determiner"
+        },
+        {
+          "word": "last name",
+          "definition": "family surname",
+          "translation_pt": "último nome/sobrenome",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "so long",
+          "definition": "goodbye",
+          "translation_pt": "até mais",
+          "part_of_speech": "phrase"
+        },
+        {
+          "word": "email account",
+          "definition": "electronic mail address",
+          "translation_pt": "conta de email",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "very much",
+          "definition": "a lot, greatly",
+          "translation_pt": "muito",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "a little",
+          "definition": "small amount",
+          "translation_pt": "pouco",
+          "part_of_speech": "phrase"
+        },
+        {
+          "word": "sometimes",
+          "definition": "occasionally",
+          "translation_pt": "às vezes",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "have lunch",
+          "definition": "to eat midday meal",
+          "translation_pt": "almoçar",
+          "part_of_speech": "verb phrase"
+        },
+        {
+          "word": "have breakfast",
+          "definition": "to eat morning meal",
+          "translation_pt": "tomar café da manhã",
+          "part_of_speech": "verb phrase"
+        },
+        {
+          "word": "have dinner",
+          "definition": "to eat evening meal",
+          "translation_pt": "jantar",
+          "part_of_speech": "verb phrase"
+        },
+        {
+          "word": "have a snack",
+          "definition": "to eat light meal",
+          "translation_pt": "lanchar",
+          "part_of_speech": "verb phrase"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Sometimes all you need is a little patience",
+          "translation": "Às vezes tudo que você precisa é de um pouco de paciência",
+          "context": "idiom"
+        },
+        {
+          "phrase": "Well done is better than well said",
+          "translation": "Bem feito é melhor do que bem dito",
+          "context": "idiom"
+        },
+        {
+          "phrase": "He's a cold fish in the office",
+          "translation": "Ele é uma pessoa fria no escritório",
+          "context": "idiom"
+        },
+        {
+          "phrase": "You are an open book",
+          "translation": "Você é um livro aberto",
+          "context": "idiom"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "Sometimes, I need to study here.",
+          "translation": "Às vezes, eu preciso estudar aqui.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I don't like my steak well done.",
+          "translation": "Eu não gosto do meu bife bem passado.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Don't you need to work at the office today?",
+          "translation": "Você não precisa trabalhar no escritório hoje?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you prefer to go to the bookstore?",
+          "translation": "Você prefere ir na livraria?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't like cold coffee.",
+          "translation": "Eu não gosto de café frio.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Do you want to have lunch with me?",
+          "translation": "Você quer almoçar comigo?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't like to eat cold pie.",
+          "translation": "Eu não gosto de comer torta fria.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I need to go now, so long.",
+          "translation": "Eu preciso ir agora, até mais.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I don't have time tomorrow.",
+          "translation": "Eu não tenho tempo amanhã.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Where do you work?",
+          "translation": "Onde você trabalha?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't like you very much.",
+          "translation": "Eu não gosto muito de você.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You like to go to the beach on weekends.",
+          "translation": "Você gosta de ir na praia nos fins de semana.",
+          "difficulty": "intermediate"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Preferences for drinks",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you prefer cold wine or hot tea?"
+            },
+            {
+              "speaker": "B",
+              "text": "I prefer cold wine."
+            }
+          ]
+        },
+        {
+          "context": "Study preferences",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you want to study with your Italian teacher?"
+            },
+            {
+              "speaker": "B",
+              "text": "No, I prefer to study alone."
+            }
+          ]
+        },
+        {
+          "context": "Going to gym",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you like to go to the gym?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, I go everyday."
+            }
+          ]
+        },
+        {
+          "context": "Breakfast preferences",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "What do you prefer to eat for breakfast?"
+            },
+            {
+              "speaker": "B",
+              "text": "I prefer chocolate cake, eggs and bacon."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "translation",
+          "instructions": "Translate from Portuguese to English",
+          "questions": [
+            {
+              "question": "Você vai a livraria com sua mãe a noite?",
+              "answer": "Do you go to the bookstore with your mother at night?"
+            },
+            {
+              "question": "Eu não gosto de beber vinho quente",
+              "answer": "I don't like to drink warm wine"
+            },
+            {
+              "question": "Você não quer almoçar comigo lá?",
+              "answer": "Don't you want to have lunch with me there?"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "Where do you prefer to go with your friends?",
+        "Do you have time to have dinner with me?",
+        "Do you like to go to the gym every day?",
+        "Do you speak with your brother every day?",
+        "Do you sometimes go to the movies?",
+        "Do you sometimes go to the park?",
+        "Do you work at an office or at a bookstore?",
+        "What do you like to have for a snack?",
+        "Do you prefer hot or cold tea?",
+        "Do you like to play with your daughter very much?",
+        "Do you have some time today?"
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "lesson_number": 7,
+      "difficulty": "Intermediate",
+      "title": "Shopping and Clothing",
+      "topics": [
+        "Shopping",
+        "Clothing",
+        "Money",
+        "Relationships",
+        "Vehicles",
+        "Numbers 0-10"
+      ],
+      "vocabulary": [
+        {
+          "word": "buy",
+          "definition": "to purchase with money",
+          "translation_pt": "comprar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "sell",
+          "definition": "to give for money",
+          "translation_pt": "vender",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "money",
+          "definition": "currency for buying",
+          "translation_pt": "dinheiro",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bubble gum",
+          "definition": "chewable candy",
+          "translation_pt": "chiclete",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pencil",
+          "definition": "writing tool with graphite",
+          "translation_pt": "lápis",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pen",
+          "definition": "writing tool with ink",
+          "translation_pt": "caneta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "dress",
+          "definition": "one-piece garment for women",
+          "translation_pt": "vestido",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "blouse",
+          "definition": "women's top",
+          "translation_pt": "blusa",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "shirt",
+          "definition": "button-up garment",
+          "translation_pt": "camisa",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "t-shirt",
+          "definition": "casual pullover top",
+          "translation_pt": "camiseta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "coat",
+          "definition": "outerwear jacket",
+          "translation_pt": "casaco",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "shorts",
+          "definition": "short pants",
+          "translation_pt": "short",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "pants",
+          "definition": "long leg garment",
+          "translation_pt": "calças",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "shoes",
+          "definition": "footwear",
+          "translation_pt": "sapatos",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "boots",
+          "definition": "tall footwear",
+          "translation_pt": "botas",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "boyfriend",
+          "definition": "male romantic partner",
+          "translation_pt": "namorado",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "girlfriend",
+          "definition": "female romantic partner",
+          "translation_pt": "namorada",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "boss",
+          "definition": "work supervisor",
+          "translation_pt": "chefe",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "manager",
+          "definition": "business administrator",
+          "translation_pt": "gerente",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "car",
+          "definition": "automobile vehicle",
+          "translation_pt": "carro",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bike",
+          "definition": "bicycle",
+          "translation_pt": "bicicleta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "motorcycle",
+          "definition": "motorized two-wheeler",
+          "translation_pt": "moto",
+          "part_of_speech": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Nice to meet you",
+          "translation": "Prazer em te conhecer",
+          "context": "first meeting"
+        },
+        {
+          "phrase": "Hurry up",
+          "translation": "Se apresse!",
+          "context": "urgency"
+        },
+        {
+          "phrase": "Keep your pants on!",
+          "translation": "Fique calmo!",
+          "context": "idiom"
+        },
+        {
+          "phrase": "Hurry up! Time is money!",
+          "translation": "Se apresse! Tempo é dinheiro!",
+          "context": "idiom"
+        },
+        {
+          "phrase": "The new iPhone is sold out",
+          "translation": "O novo iPhone está esgotado",
+          "context": "shopping"
+        },
+        {
+          "phrase": "You need to buy time for me!",
+          "translation": "Você precisa ganhar tempo pra mim!",
+          "context": "idiom"
+        }
+      ],
+      "numbers": [
+        {
+          "numeral": "0",
+          "word": "zero",
+          "translation": "zero"
+        },
+        {
+          "numeral": "1",
+          "word": "one",
+          "translation": "um"
+        },
+        {
+          "numeral": "2",
+          "word": "two",
+          "translation": "dois"
+        },
+        {
+          "numeral": "3",
+          "word": "three",
+          "translation": "três"
+        },
+        {
+          "numeral": "4",
+          "word": "four",
+          "translation": "quatro"
+        },
+        {
+          "numeral": "5",
+          "word": "five",
+          "translation": "cinco"
+        },
+        {
+          "numeral": "6",
+          "word": "six",
+          "translation": "seis"
+        },
+        {
+          "numeral": "7",
+          "word": "seven",
+          "translation": "sete"
+        },
+        {
+          "numeral": "8",
+          "word": "eight",
+          "translation": "oito"
+        },
+        {
+          "numeral": "9",
+          "word": "nine",
+          "translation": "nove"
+        },
+        {
+          "numeral": "10",
+          "word": "ten",
+          "translation": "dez"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I need to speak with my manager.",
+          "translation": "Preciso falar com meu gerente.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you have a boyfriend?",
+          "translation": "Você tem namorado?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I want to buy a coat for my mother.",
+          "translation": "Eu quero comprar um casaco para minha mãe.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you prefer a pen or a pencil?",
+          "translation": "Você prefere uma caneta ou um lápis?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't like bubble gum.",
+          "translation": "Eu não gosto de chiclete.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Do you want some chocolate cake?",
+          "translation": "Você quer bolo de chocolate?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't like to have lunch with my boss.",
+          "translation": "Eu não gosto de almoçar com meu chefe.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you want money?",
+          "translation": "Você quer dinheiro?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't want to sell my car.",
+          "translation": "Eu não quero vender meu carro.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you have a t-shirt?",
+          "translation": "Você tem uma camiseta?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I want to buy a bike.",
+          "translation": "Eu quero comprar uma bicicleta.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "Do you want to sell your new blouse?",
+          "translation": "Você quer vender sua blusa nova?",
+          "difficulty": "intermediate"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Clothing preferences",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you prefer pants or shorts?"
+            },
+            {
+              "speaker": "B",
+              "text": "I prefer pants."
+            }
+          ]
+        },
+        {
+          "context": "Buying books",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you like to buy books for your brother?"
+            },
+            {
+              "speaker": "B",
+              "text": "No, I prefer to buy books for me."
+            }
+          ]
+        },
+        {
+          "context": "Selling instruments",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you need to sell your guitar or your violin?"
+            },
+            {
+              "speaker": "B",
+              "text": "I need to sell my guitar."
+            }
+          ]
+        },
+        {
+          "context": "Work preferences",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you prefer to work with your boss or your manager?"
+            },
+            {
+              "speaker": "B",
+              "text": "I prefer to work with my manager."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completion",
+          "instructions": "Complete the sentences",
+          "questions": [
+            {
+              "question": "I want to sell my ____.",
+              "answer": [
+                "car",
+                "bike",
+                "motorcycle",
+                "guitar"
+              ]
+            },
+            {
+              "question": "Do you like to ____ with ____ at night?",
+              "answer": [
+                "play",
+                "your friend"
+              ]
+            },
+            {
+              "question": "I don't have a new ____.",
+              "answer": [
+                "coat",
+                "dress",
+                "shirt"
+              ]
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "What do you need to buy today?",
+        "Do you have a boyfriend or a girlfriend?",
+        "Do you like to buy books or do you prefer to buy candy?",
+        "Do you speak with your boss every day?",
+        "When do you prefer to go home?",
+        "Do you sometimes work in the evening?",
+        "Do you prefer to buy a shirt or to buy some apple pie?",
+        "Where do you need to go today?",
+        "Do you prefer to work at home or at the office?",
+        "Do you want to go to the movies with me now?",
+        "When do you need to study Italian?"
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "lesson_number": 8,
+      "difficulty": "Intermediate",
+      "title": "Family and Quantities",
+      "topics": [
+        "Extended family",
+        "Quantities",
+        "Numbers 20-1000",
+        "Food items"
+      ],
+      "vocabulary": [
+        {
+          "word": "help",
+          "definition": "to assist or aid",
+          "translation_pt": "ajudar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "know",
+          "definition": "to be aware of information; to be acquainted with",
+          "translation_pt": "saber/conhecer",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "aunt",
+          "definition": "parent's sister",
+          "translation_pt": "tia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "uncle",
+          "definition": "parent's brother",
+          "translation_pt": "tio",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "nephew",
+          "definition": "brother's or sister's son",
+          "translation_pt": "sobrinho",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "niece",
+          "definition": "brother's or sister's daughter",
+          "translation_pt": "sobrinha",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "grandson",
+          "definition": "son's or daughter's son",
+          "translation_pt": "neto",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "granddaughter",
+          "definition": "son's or daughter's daughter",
+          "translation_pt": "neta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "grandchildren",
+          "definition": "plural of grandchild",
+          "translation_pt": "netos",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "relative",
+          "definition": "family member",
+          "translation_pt": "parente",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "sister-in-law",
+          "definition": "spouse's sister or brother's wife",
+          "translation_pt": "cunhada",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "brother-in-law",
+          "definition": "spouse's brother or sister's husband",
+          "translation_pt": "cunhado",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "neighbor",
+          "definition": "person living nearby",
+          "translation_pt": "vizinho",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "cookie",
+          "definition": "small sweet baked treat",
+          "translation_pt": "biscoito",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "popcorn",
+          "definition": "popped corn snack",
+          "translation_pt": "pipoca",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "slice",
+          "definition": "thin piece cut from something",
+          "translation_pt": "fatia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "piece",
+          "definition": "portion of something",
+          "translation_pt": "pedaço",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "dollars",
+          "definition": "US currency",
+          "translation_pt": "dólares",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "computer",
+          "definition": "electronic computing device",
+          "translation_pt": "computador",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "mall",
+          "definition": "shopping center",
+          "translation_pt": "shopping",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "siblings",
+          "definition": "brothers and sisters",
+          "translation_pt": "irmãos",
+          "part_of_speech": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "How many",
+          "translation": "Quantos (contável)",
+          "context": "asking about countable quantity"
+        },
+        {
+          "phrase": "How much",
+          "translation": "Quantos (incontável)",
+          "context": "asking about uncountable quantity"
+        },
+        {
+          "phrase": "About",
+          "translation": "Sobre/mais ou menos aproximadamente",
+          "context": "approximately"
+        },
+        {
+          "phrase": "He's got the know-how",
+          "translation": "Ele tem a manha",
+          "context": "idiom"
+        },
+        {
+          "phrase": "Before you know it",
+          "translation": "Antes que você perceba",
+          "context": "idiom"
+        },
+        {
+          "phrase": "He spends money like water",
+          "translation": "Ele gasta dinheiro igual água",
+          "context": "idiom"
+        },
+        {
+          "phrase": "Time flies",
+          "translation": "O tempo voa",
+          "context": "idiom"
+        }
+      ],
+      "numbers": [
+        {
+          "numeral": "20",
+          "word": "twenty",
+          "translation": "vinte"
+        },
+        {
+          "numeral": "21",
+          "word": "twenty-one",
+          "translation": "vinte e um"
+        },
+        {
+          "numeral": "30",
+          "word": "thirty",
+          "translation": "trinta"
+        },
+        {
+          "numeral": "40",
+          "word": "forty",
+          "translation": "quarenta"
+        },
+        {
+          "numeral": "50",
+          "word": "fifty",
+          "translation": "cinquenta"
+        },
+        {
+          "numeral": "60",
+          "word": "sixty",
+          "translation": "sessenta"
+        },
+        {
+          "numeral": "70",
+          "word": "seventy",
+          "translation": "setenta"
+        },
+        {
+          "numeral": "80",
+          "word": "eighty",
+          "translation": "oitenta"
+        },
+        {
+          "numeral": "90",
+          "word": "ninety",
+          "translation": "noventa"
+        },
+        {
+          "numeral": "100",
+          "word": "one hundred",
+          "translation": "cem"
+        },
+        {
+          "numeral": "200",
+          "word": "two hundred",
+          "translation": "duzentos"
+        },
+        {
+          "numeral": "1000",
+          "word": "one thousand",
+          "translation": "mil"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I know your sister.",
+          "translation": "Eu conheço sua irmã.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I know how to go downtown.",
+          "translation": "Eu sei ir ao centro da cidade.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I like to help my nephew.",
+          "translation": "Eu gosto de ajudar meu sobrinho.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you know my grandchildren?",
+          "translation": "Você conhece meus netos?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "How many relatives do you have?",
+          "translation": "Quantos parentes você tem?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "How much money do you need?",
+          "translation": "Quanto de dinheiro você precisa?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I don't have much time.",
+          "translation": "Eu não tenho muito tempo.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I have seven granddaughters.",
+          "translation": "Eu tenho 7 netas.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I don't like to eat popcorn at the movies.",
+          "translation": "Eu não gosto de comer pipoca no cinema.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You have twelve grandsons.",
+          "translation": "Você tem 12 netos.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you know how to play the drums?",
+          "translation": "Você sabe tocar bateria?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I have two hundred and fifty books.",
+          "translation": "Eu tenho 250 livros.",
+          "difficulty": "advanced"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Helping family",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you help your wife at home?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes I do, sometimes I help my wife at home."
+            }
+          ]
+        },
+        {
+          "context": "Going to the beach",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you want to go to the beach with me?"
+            },
+            {
+              "speaker": "B",
+              "text": "No, I prefer to go to the park with my cat."
+            }
+          ]
+        },
+        {
+          "context": "Offering help",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you want to help me tomorrow?"
+            },
+            {
+              "speaker": "B",
+              "text": "Sorry, but I have to study tomorrow."
+            }
+          ]
+        },
+        {
+          "context": "Language preferences",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you prefer to speak Italian or French?"
+            },
+            {
+              "speaker": "B",
+              "text": "I prefer to speak Italian, I don't speak French."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "substitution",
+          "instructions": "Replace the highlighted word",
+          "questions": [
+            {
+              "question": "How many pieces of cake do you have?",
+              "word_to_replace": "pieces",
+              "alternatives": [
+                "slices",
+                "bits"
+              ]
+            },
+            {
+              "question": "Do you help your father at home?",
+              "word_to_replace": "father",
+              "alternatives": [
+                "mother",
+                "cousin",
+                "nephew"
+              ]
+            },
+            {
+              "question": "I don't know your cousin.",
+              "word_to_replace": "cousin",
+              "alternatives": [
+                "aunt",
+                "uncle",
+                "neighbor"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "translation",
+          "instructions": "Translate from Portuguese to English",
+          "questions": [
+            {
+              "question": "As vezes eu ajudo meu avô na loja de manhã",
+              "answer": "Sometimes I help my grandfather at the store in the morning"
+            },
+            {
+              "question": "Eu não sei jogar xadrez",
+              "answer": "I don't know how to play chess"
+            },
+            {
+              "question": "Você conhece meus parentes?",
+              "answer": "Do you know my relatives?"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "When do you help your parents?",
+        "Do you want to buy an apartment at the beach?",
+        "Do you know what car I have?",
+        "Do you need to work tomorrow?",
+        "Do you like to eat popcorn at the movies?",
+        "Do you like to drink tea or coffee for breakfast?",
+        "How many cups of coffee do you drink in the morning?",
+        "Where do you need to go on weekends?",
+        "What do you want to sell now?",
+        "Do you want to buy a car or do you prefer a motorcycle?",
+        "How much money do you need?"
+      ]
+    },
+    {
+      "lesson_id": 9,
+      "lesson_number": 9,
+      "difficulty": "Intermediate",
+      "title": "Time and Reading",
+      "topics": [
+        "Time expressions",
+        "Reading and writing",
+        "Clothing accessories",
+        "Daily schedule"
+      ],
+      "vocabulary": [
+        {
+          "word": "read",
+          "definition": "to look at and understand written words",
+          "translation_pt": "ler",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "write",
+          "definition": "to form letters and words",
+          "translation_pt": "escrever",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "newspaper",
+          "definition": "daily printed news publication",
+          "translation_pt": "jornal",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "magazine",
+          "definition": "periodic publication",
+          "translation_pt": "revista",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "letter",
+          "definition": "written message",
+          "translation_pt": "carta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "email",
+          "definition": "electronic mail",
+          "translation_pt": "email",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "at",
+          "definition": "@ symbol",
+          "translation_pt": "arroba",
+          "part_of_speech": "symbol"
+        },
+        {
+          "word": "dot com",
+          "definition": ".com domain",
+          "translation_pt": "ponto com",
+          "part_of_speech": "phrase"
+        },
+        {
+          "word": "noon",
+          "definition": "12:00 PM midday",
+          "translation_pt": "meio dia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "midnight",
+          "definition": "12:00 AM",
+          "translation_pt": "meia noite",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "clothes",
+          "definition": "garments worn on body",
+          "translation_pt": "roupa",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "make up",
+          "definition": "cosmetics",
+          "translation_pt": "maquiagem",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "flip flops",
+          "definition": "casual sandals",
+          "translation_pt": "chinelo",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "backpack",
+          "definition": "bag worn on back",
+          "translation_pt": "mochila",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "purse",
+          "definition": "handbag",
+          "translation_pt": "bolsa",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bed",
+          "definition": "furniture for sleeping",
+          "translation_pt": "cama",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "kid",
+          "definition": "child",
+          "translation_pt": "criança",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "until",
+          "definition": "up to a time",
+          "translation_pt": "até",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "by",
+          "definition": "before or not later than",
+          "translation_pt": "até",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "if",
+          "definition": "conditional word",
+          "translation_pt": "se",
+          "part_of_speech": "conjunction"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "What time",
+          "translation": "Que horas?",
+          "context": "asking for time"
+        },
+        {
+          "phrase": "What time is it?",
+          "translation": "Que horas são?",
+          "context": "asking current time"
+        },
+        {
+          "phrase": "Get up",
+          "translation": "Levantar",
+          "context": "wake and rise"
+        },
+        {
+          "phrase": "Go to bed",
+          "translation": "Ir dormir/ir pra cama",
+          "context": "sleep time"
+        },
+        {
+          "phrase": "He got up on the wrong side of the bed",
+          "translation": "Ele levantou com o pé esquerdo",
+          "context": "idiom"
+        },
+        {
+          "phrase": "The deadline is at noon tomorrow",
+          "translation": "O prazo é ao meio-dia amanhã",
+          "context": "deadline"
+        },
+        {
+          "phrase": "Don't kid yourself",
+          "translation": "Não se iluda",
+          "context": "idiom"
+        },
+        {
+          "phrase": "Make up your mind!",
+          "translation": "Decida-se!",
+          "context": "idiom"
+        }
+      ],
+      "time_expressions": [
+        {
+          "time": "1:00",
+          "expression": "It's one o'clock"
+        },
+        {
+          "time": "5:45",
+          "expression": "It's five forty five"
+        },
+        {
+          "time": "4:15",
+          "expression": "It's four fifteen"
+        },
+        {
+          "time": "5:30",
+          "expression": "It's five thirty"
+        },
+        {
+          "time": "6:50",
+          "expression": "It's ten to seven"
+        },
+        {
+          "period": "a.m.",
+          "meaning": "0 - 12 h"
+        },
+        {
+          "period": "p.m.",
+          "meaning": "12 - 24 h"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I read to my children.",
+          "translation": "Eu leio para as minhas crianças.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "What time do you get up?",
+          "translation": "Que horas você levanta?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I get up at six o'clock.",
+          "translation": "Eu levanto as 6hrs.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I write many emails to my friend.",
+          "translation": "Eu escrevo muitos emails para minha amiga.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You go to bed at 10 o'clock.",
+          "translation": "Você vai pra cama as 10hrs.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I need to buy new clothes.",
+          "translation": "Eu preciso comprar roupas novas.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I write a letter to my boyfriend every day.",
+          "translation": "Eu escrevo uma carta pra o meu namorado todos os dias.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "The kids go to bed by 9 p.m.",
+          "translation": "As crianças vão pra cama até 9hrs.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "The girls go to school at 4:20.",
+          "translation": "As meninas vão pra escola as 4h20.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "The boys don't study until 2 p.m.",
+          "translation": "Os meninos não estudam até ás 2hrs.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "What's your email?",
+          "translation": "Qual seu email?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "It's Maria@gmail.com",
+          "translation": "É Maria@gmail.com",
+          "difficulty": "beginner"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Asking about cars sold",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "How many cars do you sell every week?"
+            },
+            {
+              "speaker": "B",
+              "text": "I sell about 10 cars every week."
+            }
+          ]
+        },
+        {
+          "context": "Going to church",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you go to church with your family?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, I go to church with my family on weekends."
+            }
+          ]
+        },
+        {
+          "context": "Reading habits",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "How many books do you read every day?"
+            },
+            {
+              "speaker": "B",
+              "text": "Sorry, but I don't like to read books, I prefer magazines."
+            }
+          ]
+        },
+        {
+          "context": "Asking the time",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you know what time is it?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, it's 3:45 p.m."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completion",
+          "instructions": "Complete the sentences",
+          "questions": [
+            {
+              "question": "I need to buy ____ today.",
+              "answer": [
+                "clothes",
+                "makeup",
+                "shoes"
+              ]
+            },
+            {
+              "question": "I have to go to bed at ____.",
+              "answer": [
+                "9 p.m.",
+                "10 o'clock",
+                "midnight"
+              ]
+            },
+            {
+              "question": "You study ____ 6 p.m. every day.",
+              "answer": [
+                "until"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "translation",
+          "instructions": "Translate from Portuguese to English",
+          "questions": [
+            {
+              "question": "Eu não quero falar com o meu chefe agora",
+              "answer": "I don't want to speak with my boss now"
+            },
+            {
+              "question": "Você gosta de ler ou de escrever sobre crianças?",
+              "answer": "Do you like to read or to write about children?"
+            },
+            {
+              "question": "As vezes durmo até o meio dia nos fins de semana",
+              "answer": "Sometimes I sleep until noon on weekends"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "When do you write emails to your family?",
+        "Do you like to read the newspaper in the evening?",
+        "Do you know how many dollars I have?",
+        "Do you want to have lunch at the mall?",
+        "Do you like to have siblings?",
+        "How many relatives do you have?",
+        "How much money do you need to buy a car?",
+        "What time is it now, please?",
+        "Do you like to speak with your niece?",
+        "Where do you want to go today?",
+        "What do you want to eat now?"
+      ]
+    },
+    {
+      "lesson_id": 10,
+      "lesson_number": 10,
+      "difficulty": "Intermediate",
+      "title": "House and Understanding",
+      "topics": [
+        "House parts",
+        "Nature",
+        "Understanding",
+        "Opening and closing"
+      ],
+      "vocabulary": [
+        {
+          "word": "open",
+          "definition": "to make accessible",
+          "translation_pt": "abrir",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "close",
+          "definition": "to shut",
+          "translation_pt": "fechar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "understand",
+          "definition": "to comprehend",
+          "translation_pt": "entender",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "window",
+          "definition": "glass opening in wall",
+          "translation_pt": "janela",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "door",
+          "definition": "entrance or exit",
+          "translation_pt": "porta",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bedroom",
+          "definition": "sleeping room",
+          "translation_pt": "quarto",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bathroom",
+          "definition": "room with toilet and bath",
+          "translation_pt": "banheiro",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "restroom",
+          "definition": "public bathroom",
+          "translation_pt": "banheiro",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "kitchen",
+          "definition": "cooking room",
+          "translation_pt": "cozinha",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "living room",
+          "definition": "main room for relaxing",
+          "translation_pt": "sala de estar",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "fridge",
+          "definition": "refrigerator",
+          "translation_pt": "geladeira",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "cabinet",
+          "definition": "storage cupboard",
+          "translation_pt": "armário",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "flower",
+          "definition": "colorful plant bloom",
+          "translation_pt": "flor",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "tree",
+          "definition": "large woody plant",
+          "translation_pt": "árvore",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "lake",
+          "definition": "large body of water",
+          "translation_pt": "lago",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "river",
+          "definition": "flowing water body",
+          "translation_pt": "rio",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bird",
+          "definition": "flying animal",
+          "translation_pt": "pássaro",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "bug",
+          "definition": "small insect",
+          "translation_pt": "inseto",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "garden",
+          "definition": "plant growing area",
+          "translation_pt": "jardim",
+          "part_of_speech": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "This morning",
+          "translation": "Hoje de manhã",
+          "context": "time reference"
+        },
+        {
+          "phrase": "This afternoon",
+          "translation": "Hoje a tarde",
+          "context": "time reference"
+        },
+        {
+          "phrase": "Tonight",
+          "translation": "Hoje a noite",
+          "context": "time reference"
+        },
+        {
+          "phrase": "Tomorrow morning",
+          "translation": "Amanhã de manhã",
+          "context": "time reference"
+        },
+        {
+          "phrase": "It works",
+          "translation": "Funciona",
+          "context": "functionality"
+        },
+        {
+          "phrase": "Very well",
+          "translation": "Muito bem",
+          "context": "quality"
+        },
+        {
+          "phrase": "The door is always open for you",
+          "translation": "A porta está sempre aberta pra você",
+          "context": "idiom"
+        },
+        {
+          "phrase": "This was a close call",
+          "translation": "Isso foi por pouco",
+          "context": "idiom"
+        },
+        {
+          "phrase": "Stop bugging me!",
+          "translation": "Pare de me incomodar!",
+          "context": "idiom"
+        },
+        {
+          "phrase": "Eyes are the windows to the soul",
+          "translation": "Os olhos são as janelas da alma",
+          "context": "idiom"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I open the kitchen door.",
+          "translation": "Eu abro a porta da cozinha.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "What time do you close the windows?",
+          "translation": "Que horas você fecha as janelas?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I open the drugstore at six o'clock.",
+          "translation": "Eu abro a farmácia as 6hrs.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "I need to close the car door.",
+          "translation": "Eu preciso fechar a porta do carro.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "You need to open the school now.",
+          "translation": "Você precisa abrir a escola agora.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "What time do you go to the lake?",
+          "translation": "Que horas você vai no lago?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you like my new garden? I have a river here too.",
+          "translation": "Você gosta do meu jardim novo? Tenho um rio aqui também.",
+          "difficulty": "advanced"
+        },
+        {
+          "sentence": "I have many birds on my window.",
+          "translation": "Eu tenho muitos passarinhos na minha janela.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "The girls like flowers.",
+          "translation": "As meninas gostam de flores.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't understand my new boss.",
+          "translation": "Eu não entendo meu chefe novo.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Do you understand me?",
+          "translation": "Você me entende?",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I have water in my fridge.",
+          "translation": "Eu tenho água dentro da minha geladeira.",
+          "difficulty": "intermediate"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Asking about gardens",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you like gardens?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, I like gardens very much."
+            }
+          ]
+        },
+        {
+          "context": "Understanding children",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you understand your child?"
+            },
+            {
+              "speaker": "B",
+              "text": "Sometimes."
+            }
+          ]
+        },
+        {
+          "context": "Living room size",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you have a big living room?"
+            },
+            {
+              "speaker": "B",
+              "text": "Sorry, but I have a small living room."
+            }
+          ]
+        },
+        {
+          "context": "Finding items",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Do you have lemon soda?"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, in my fridge."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completion",
+          "instructions": "Complete with the correct verb",
+          "questions": [
+            {
+              "question": "I ____ to go there at 7:30 today.",
+              "options": [
+                "want",
+                "prefer",
+                "need"
+              ],
+              "answer": "want"
+            },
+            {
+              "question": "I like to ____ the newspaper every morning.",
+              "options": [
+                "read",
+                "write",
+                "buy"
+              ],
+              "answer": "read"
+            },
+            {
+              "question": "Do you want to ____ a new apartment?",
+              "options": [
+                "buy",
+                "sell",
+                "have"
+              ],
+              "answer": "buy"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "What do you like to do in the evenings?",
+        "Do you need to buy new shoes?",
+        "Do you want some cookies?",
+        "Where do you want to go tonight?",
+        "What do you need to buy for your relatives?",
+        "What time do you go to work every day?",
+        "How many brothers and sisters do you have?",
+        "Do you write emails every day?",
+        "When do you need to close the store?",
+        "Do you open your windows every morning?",
+        "Do you like muffins or do you prefer puddings?"
+      ]
+    },
+    {
+      "lesson_id": 11,
+      "lesson_number": 11,
+      "difficulty": "Intermediate",
+      "title": "Living and Countries - Third Person",
+      "topics": [
+        "Countries",
+        "Living",
+        "Third person pronouns",
+        "Geography"
+      ],
+      "vocabulary": [
+        {
+          "word": "live",
+          "definition": "to reside or dwell",
+          "translation_pt": "viver/morar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "start",
+          "definition": "to begin",
+          "translation_pt": "começar/iniciar",
+          "part_of_speech": "verb"
+        },
+        {
+          "word": "near",
+          "definition": "close to",
+          "translation_pt": "perto de",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "far",
+          "definition": "distant from",
+          "translation_pt": "longe",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "from",
+          "definition": "indicating origin",
+          "translation_pt": "de",
+          "part_of_speech": "preposition"
+        },
+        {
+          "word": "language",
+          "definition": "system of communication",
+          "translation_pt": "língua",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "freeway",
+          "definition": "highway",
+          "translation_pt": "rodovia",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "street",
+          "definition": "road in town",
+          "translation_pt": "rua",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "why",
+          "definition": "for what reason",
+          "translation_pt": "porque",
+          "part_of_speech": "adverb"
+        },
+        {
+          "word": "because",
+          "definition": "for the reason that",
+          "translation_pt": "porque",
+          "part_of_speech": "conjunction"
+        },
+        {
+          "word": "he",
+          "definition": "third person masculine pronoun",
+          "translation_pt": "ele",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "she",
+          "definition": "third person feminine pronoun",
+          "translation_pt": "ela",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "it",
+          "definition": "third person neutral pronoun",
+          "translation_pt": "neutro",
+          "part_of_speech": "pronoun"
+        },
+        {
+          "word": "doesn't",
+          "definition": "does not - third person negative",
+          "translation_pt": "não",
+          "part_of_speech": "auxiliary verb"
+        },
+        {
+          "word": "vacation",
+          "definition": "holiday period",
+          "translation_pt": "férias",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "Brazil",
+          "definition": "South American country",
+          "translation_pt": "Brasil",
+          "part_of_speech": "proper noun"
+        },
+        {
+          "word": "Canada",
+          "definition": "North American country",
+          "translation_pt": "Canadá",
+          "part_of_speech": "proper noun"
+        },
+        {
+          "word": "Mexico",
+          "definition": "North American country",
+          "translation_pt": "México",
+          "part_of_speech": "proper noun"
+        },
+        {
+          "word": "Africa",
+          "definition": "continent",
+          "translation_pt": "África",
+          "part_of_speech": "proper noun"
+        },
+        {
+          "word": "London",
+          "definition": "city in England",
+          "translation_pt": "Londres",
+          "part_of_speech": "proper noun"
+        },
+        {
+          "word": "Europe",
+          "definition": "continent",
+          "translation_pt": "Europa",
+          "part_of_speech": "proper noun"
+        },
+        {
+          "word": "map",
+          "definition": "geographic representation",
+          "translation_pt": "mapa",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "country",
+          "definition": "nation",
+          "translation_pt": "país",
+          "part_of_speech": "noun"
+        },
+        {
+          "word": "countryside",
+          "definition": "rural area",
+          "translation_pt": "interior",
+          "part_of_speech": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "How old are you?",
+          "translation": "Quantos anos você tem?",
+          "context": "asking age"
+        },
+        {
+          "phrase": "I am 22",
+          "translation": "Eu tenho 22",
+          "context": "stating age"
+        },
+        {
+          "phrase": "How do you spell your name?",
+          "translation": "Como se soletra seu nome?",
+          "context": "asking for spelling"
+        },
+        {
+          "phrase": "The show will go live at 8 p.m.",
+          "translation": "O programa será transmitido ao vivo as 8h",
+          "context": "broadcast"
+        },
+        {
+          "phrase": "If you make a mistake, just start over",
+          "translation": "Se você cometer um erro, apenas recomece",
+          "context": "advice"
+        },
+        {
+          "phrase": "This discussion is far from over",
+          "translation": "Essa discussão está longe de terminar",
+          "context": "ongoing situation"
+        },
+        {
+          "phrase": "Friendship is a two-way street",
+          "translation": "A amizade é uma via de mão dupla",
+          "context": "idiom"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "I live near here.",
+          "translation": "Eu moro perto daqui.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I don't live far from here.",
+          "translation": "Eu não moro longe daqui.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "She doesn't write books.",
+          "translation": "Ela não escreve livros.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "He doesn't like to sleep here.",
+          "translation": "Ele não gosta de dormir aqui.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "It starts at 7 pm.",
+          "translation": "Começa as 7hrs.",
+          "difficulty": "beginner"
+        },
+        {
+          "sentence": "I need to start tonight.",
+          "translation": "Eu preciso começar hoje a noite.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Why do you study English?",
+          "translation": "Porque você estuda inglês?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Because I love this language.",
+          "translation": "Porque eu amo essa língua.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "It doesn't start until tomorrow.",
+          "translation": "Não começa até amanhã.",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "Don't you live far from the freeway?",
+          "translation": "Você não mora longe da rodovia?",
+          "difficulty": "advanced"
+        },
+        {
+          "sentence": "Does he want to go to Mexico this week?",
+          "translation": "Ele quer ir pro México essa semana?",
+          "difficulty": "intermediate"
+        },
+        {
+          "sentence": "It doesn't start today.",
+          "translation": "Não começa hoje.",
+          "difficulty": "beginner"
+        }
+      ],
+      "dialogues": [
+        {
+          "context": "Age question",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "How old are you?"
+            },
+            {
+              "speaker": "B",
+              "text": "I am 25 years old."
+            }
+          ]
+        },
+        {
+          "context": "Living location",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Where do you live?"
+            },
+            {
+              "speaker": "B",
+              "text": "I live near the park."
+            }
+          ]
+        },
+        {
+          "context": "Language study",
+          "conversation": [
+            {
+              "speaker": "A",
+              "text": "Why do you study English?"
+            },
+            {
+              "speaker": "B",
+              "text": "Because I want to travel to Europe."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completion",
+          "instructions": "Complete with the correct word",
+          "questions": [
+            {
+              "question": "He wants to have ____ with you today.",
+              "options": [
+                "lunch",
+                "breakfast",
+                "dinner"
+              ],
+              "answer": "lunch"
+            },
+            {
+              "question": "____ do you sleep in the afternoon?",
+              "options": [
+                "Why",
+                "Where",
+                "When"
+              ],
+              "answer": "Why"
+            },
+            {
+              "question": "____ I study in the morning.",
+              "options": [
+                "Because",
+                "But",
+                "And"
+              ],
+              "answer": "Because"
+            }
+          ]
+        },
+        {
+          "type": "translation",
+          "instructions": "Translate from Portuguese to English",
+          "questions": [
+            {
+              "question": "Ele não vai dormir às 22 h. Ele vai dormir à meia-noite",
+              "answer": "He doesn't go to bed at 10 p.m. He goes to bed at midnight"
+            },
+            {
+              "question": "Eu quero jantar às 18 h, porque eu almoço às 11 h",
+              "answer": "I want to have dinner at 6 p.m., because I have lunch at 11 a.m."
+            },
+            {
+              "question": "Você mora longe da escola?",
+              "answer": "Do you live far from school?"
+            }
+          ]
+        }
+      ],
+      "speaking_prompts": [
+        "Where do you live?",
+        "How old are you?",
+        "Why do you want to learn English?",
+        "Do you live near or far from your work?",
+        "Have you been to Europe or Africa?",
+        "What countries do you want to visit?",
+        "Do you prefer the city or the countryside?",
+        "What languages can you speak?"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "I/You + verb",
+      "explanation": "Simple present tense with first and second person",
+      "examples": [
+        "I eat",
+        "You drink",
+        "I study",
+        "You work"
+      ]
+    },
+    {
+      "pattern": "He/She/It + verb + s/es",
+      "explanation": "Simple present tense with third person singular",
+      "examples": [
+        "He eats",
+        "She drinks",
+        "It starts",
+        "He doesn't like"
+      ]
+    },
+    {
+      "pattern": "I/You like to + verb",
+      "explanation": "Expressing preferences with infinitive",
+      "examples": [
+        "I like to eat",
+        "You like to play",
+        "I like to study"
+      ]
+    },
+    {
+      "pattern": "Do you + verb?",
+      "explanation": "Yes/No questions in present simple",
+      "examples": [
+        "Do you eat?",
+        "Do you like coffee?",
+        "Do you play piano?"
+      ]
+    },
+    {
+      "pattern": "I don't + verb",
+      "explanation": "Negative form in present simple",
+      "examples": [
+        "I don't eat",
+        "I don't like",
+        "I don't want"
+      ]
+    },
+    {
+      "pattern": "Article + noun",
+      "explanation": "Using a/an with singular nouns",
+      "examples": [
+        "a cup",
+        "an apple",
+        "a glass of water"
+      ]
+    },
+    {
+      "pattern": "Prepositions of time",
+      "explanation": "Using in/at/on for time expressions",
+      "examples": [
+        "in the morning",
+        "at night",
+        "on weekends",
+        "at 7 o'clock"
+      ]
+    },
+    {
+      "pattern": "Possessive adjectives",
+      "explanation": "Showing ownership",
+      "examples": [
+        "my father",
+        "your mother",
+        "his car",
+        "her book"
+      ]
+    },
+    {
+      "pattern": "Prepositions of place",
+      "explanation": "Using at/in/to for locations",
+      "examples": [
+        "at school",
+        "in the park",
+        "to the bank",
+        "at home"
+      ]
+    },
+    {
+      "pattern": "Question words",
+      "explanation": "WH-questions",
+      "examples": [
+        "What do you want?",
+        "Where do you live?",
+        "When do you study?",
+        "Why do you like it?",
+        "How do you go?"
+      ]
+    }
+  ],
+  "review_sections": [
+    {
+      "review_number": 1,
+      "lessons_covered": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "key_highlights": [
+        "I/YOU pronouns",
+        "FOR breakfast/lunch/dinner",
+        "IN THE morning/afternoon/evening",
+        "AT night",
+        "MY/YOUR possessive",
+        "DO you like TO + verb",
+        "I DON'T want to + verb",
+        "I play THE piano AT school",
+        "I go TO THE bank",
+        "You don't study ON WEEKENDS",
+        "You play IN THE park",
+        "You eat AN ice cream",
+        "I drink A cup OF coffee",
+        "I work with MY father"
+      ]
+    },
+    {
+      "review_number": 2,
+      "lessons_covered": [
+        5,
+        6,
+        7
+      ],
+      "key_highlights": [
+        "I eat pasta. I ALSO eat salad",
+        "I speak Italian TOO",
+        "You GO to school",
+        "I go TO church",
+        "I GO HOME",
+        "You GO DOWNTOWN",
+        "I go TO THE bank",
+        "You work AT THE drugstore",
+        "WHAT do you want?",
+        "WHEN do you need to go?",
+        "WHERE do you study?",
+        "I SOMETIMES go downtown",
+        "I like to go ON WEEKENDS",
+        "I like you VERY MUCH",
+        "You speak A LITTLE French",
+        "I want to BUY a car FOR my mother",
+        "Do you want to SELL your bike TO me?",
+        "I want SOME ice cream",
+        "I want TO HAVE A SNACK",
+        "Do you want to HAVE DINNER?",
+        "Do you want THIS pen or THAT pen?"
+      ]
+    },
+    {
+      "review_number": 3,
+      "lessons_covered": [
+        8,
+        9,
+        10
+      ],
+      "key_highlights": [
+        "I know your mother (to be acquainted)",
+        "I know how to speak Italian (to have knowledge)",
+        "I want a slice of cake",
+        "Do you want a piece of bread?",
+        "How much money do you have?",
+        "How many bikes do you have?",
+        "I need about 10 shoes",
+        "I want to speak about my son",
+        "Do you need to get up now?",
+        "I need to go to bed",
+        "What time is it?",
+        "I work until 9 p.m. every day",
+        "I need to write this by tomorrow",
+        "It works",
+        "I need to write a letter this afternoon",
+        "Do you need to go home this morning?",
+        "I want to speak with you tonight",
+        "I want to play with you tomorrow night",
+        "I work at seven fifteen"
+      ]
+    }
+  ]
+}

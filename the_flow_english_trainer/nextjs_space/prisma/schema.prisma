@@ -1,0 +1,483 @@
+
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+    output = "/home/ubuntu/the_flow_english_trainer/nextjs_space/node_modules/.prisma/client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+// NextAuth.js models
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// User and gamification models
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  role          String    @default("user") // "user" or "admin"
+  phone         String?
+  bio           String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  // Gamification fields
+  totalPoints   Int       @default(0)
+  level         Int       @default(1)
+  streak        Int       @default(0)
+  lastActiveDate DateTime @default(now())
+  
+  accounts      Account[]
+  sessions      Session[]
+  progress      UserProgress[]
+  exerciseAttempts ExerciseAttempt[]
+  userBadges    UserBadge[]
+  challengeAttempts ChallengeAttempt[]
+  videoProgress VideoProgress[]
+  
+  @@index([totalPoints])
+  @@index([level])
+  @@index([role])
+}
+
+model Lesson {
+  id          String   @id @default(cuid())
+  lessonId    Int      @unique
+  title       String
+  difficulty  String   // "Beginner", "Intermediate", "Advanced"
+  topics      String[] // JSON array of topics
+  vocabulary  Json     // JSON array of vocabulary items
+  phrases     Json     // JSON array of phrases
+  sentences   Json     // JSON array of example sentences
+  dialogues   Json     // JSON array of dialogues
+  exercises   Json     // JSON array of exercises
+  speakingPrompts String[] // Array of speaking prompts
+  isUnlocked  Boolean  @default(true)
+  requiredLevel Int    @default(1)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  progress    UserProgress[]
+  
+  @@index([difficulty])
+  @@index([requiredLevel])
+}
+
+model UserProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  lessonId    String
+  
+  // Progress tracking
+  completed   Boolean  @default(false)
+  score       Float?   // Overall lesson score (0-100)
+  timeSpent   Int      @default(0) // in seconds
+  attempts    Int      @default(0)
+  lastAttempt DateTime @default(now())
+  
+  // Exercise-specific progress
+  vocabularyComplete Boolean @default(false)
+  speakingComplete   Boolean @default(false)
+  listeningComplete  Boolean @default(false)
+  exercisesComplete  Boolean @default(false)
+  
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, lessonId])
+  @@index([userId])
+}
+
+model ExerciseAttempt {
+  id            String   @id @default(cuid())
+  userId        String
+  lessonId      String
+  exerciseType  String   // "vocabulary", "speaking", "listening", "fill_blank", "translation", etc.
+  questionIndex Int
+  
+  userAnswer    String?
+  correctAnswer String?
+  isCorrect     Boolean
+  points        Int      @default(0)
+  timeSpent     Int      @default(0) // in seconds
+  createdAt     DateTime @default(now())
+  
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId])
+  @@index([lessonId])
+  @@index([exerciseType])
+}
+
+model Badge {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String
+  icon        String   // Icon name or emoji
+  category    String   // "progress", "streak", "points", "completion", etc.
+  requirement Json     // JSON object defining requirements
+  points      Int      @default(0) // Points awarded for earning this badge
+  rarity      String   @default("common") // "common", "rare", "epic", "legendary"
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  
+  userBadges  UserBadge[]
+  
+  @@index([category])
+}
+
+model UserBadge {
+  id        String   @id @default(cuid())
+  userId    String
+  badgeId   String
+  earnedAt  DateTime @default(now())
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badge     Badge    @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, badgeId])
+  @@index([userId])
+}
+
+model Achievement {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String
+  category    String   // "daily", "weekly", "milestone", etc.
+  target      Int      // Target value to achieve
+  points      Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  
+  @@index([category])
+}
+
+model UserAchievement {
+  id            String   @id @default(cuid())
+  userId        String
+  achievementId String
+  progress      Int      @default(0)
+  completed     Boolean  @default(false)
+  completedAt   DateTime?
+  createdAt     DateTime @default(now())
+  
+  @@unique([userId, achievementId])
+  @@index([userId])
+}
+
+// Challenges system
+model Challenge {
+  id          String   @id @default(cuid())
+  title       String
+  description String   @db.Text
+  difficulty  String   // "Beginner", "Intermediate", "Advanced"
+  type        String   // "vocabulary", "grammar", "listening", "speaking", "writing", "mixed"
+  category    String   // "daily", "weekly", "special", "timed"
+  
+  // Challenge configuration
+  questions   Json     // Array of question objects
+  timeLimit   Int?     // Time limit in seconds (null = no limit)
+  passingScore Int     @default(70) // Percentage needed to pass
+  maxAttempts Int      @default(3) // Maximum attempts allowed
+  
+  // Rewards
+  pointsReward Int     @default(100)
+  badgeReward String?  // Optional badge awarded on completion
+  
+  // Scheduling
+  startDate   DateTime?
+  endDate     DateTime?
+  isActive    Boolean  @default(true)
+  
+  // Difficulty level required
+  requiredLevel Int    @default(1)
+  
+  // Metadata
+  order       Int      @default(0)
+  tags        String[] // Array of tags for categorization
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  attempts    ChallengeAttempt[]
+  
+  @@index([difficulty])
+  @@index([type])
+  @@index([category])
+  @@index([isActive])
+  @@index([requiredLevel])
+}
+
+model ChallengeAttempt {
+  id            String   @id @default(cuid())
+  userId        String
+  challengeId   String
+  
+  // Attempt data
+  answers       Json     // User's answers
+  score         Float    // Score achieved (0-100)
+  passed        Boolean  @default(false)
+  timeSpent     Int      @default(0) // Time spent in seconds
+  pointsEarned  Int      @default(0)
+  
+  completedAt   DateTime @default(now())
+  
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  challenge     Challenge @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+  
+  @@index([userId])
+  @@index([challengeId])
+  @@index([passed])
+}
+
+// Video lessons system
+model VideoLesson {
+  id          String   @id @default(cuid())
+  title       String
+  description String   @db.Text
+  thumbnail   String?  // URL to thumbnail image
+  videoUrl    String   // URL to video file or embed link
+  duration    Int      // Duration in seconds
+  
+  // Organization
+  category    String   // "grammar", "vocabulary", "pronunciation", "culture", etc.
+  difficulty  String   // "Beginner", "Intermediate", "Advanced"
+  order       Int      @default(0)
+  tags        String[] // Array of tags
+  
+  // Content metadata
+  transcript  String?  @db.Text // Video transcript
+  resources   Json?    // Additional resources (PDFs, links, etc.)
+  
+  // Access control
+  isPublic    Boolean  @default(true)
+  requiredLevel Int    @default(1)
+  isPremium   Boolean  @default(false)
+  
+  // Stats
+  viewCount   Int      @default(0)
+  likeCount   Int      @default(0)
+  
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  progress    VideoProgress[]
+  
+  @@index([category])
+  @@index([difficulty])
+  @@index([isActive])
+  @@index([requiredLevel])
+}
+
+model VideoProgress {
+  id            String   @id @default(cuid())
+  userId        String
+  videoId       String
+  
+  // Progress tracking
+  watchedSeconds Int     @default(0) // Seconds watched
+  completed     Boolean  @default(false)
+  lastPosition  Int      @default(0) // Last playback position in seconds
+  liked         Boolean  @default(false)
+  
+  lastWatched   DateTime @default(now())
+  createdAt     DateTime @default(now())
+  
+  user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  video         VideoLesson  @relation(fields: [videoId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, videoId])
+  @@index([userId])
+  @@index([videoId])
+}
+
+// Registration tokens for invite-only signup
+model RegistrationToken {
+  id          String   @id @default(cuid())
+  token       String   @unique @default(cuid())
+  
+  // Token status
+  isUsed      Boolean  @default(false)
+  usedBy      String?  // Email of the user who used the token
+  usedAt      DateTime?
+  
+  // Token metadata
+  createdBy   String?  // Admin user who created the token
+  description String?  // Optional description/note
+  expiresAt   DateTime? // Optional expiration date
+  
+  createdAt   DateTime @default(now())
+  
+  @@index([token])
+  @@index([isUsed])
+}
+
+// Independent Listening Exercises
+model ListeningExercise {
+  id          String   @id @default(cuid())
+  title       String
+  description String?  @db.Text
+  difficulty  String   // "Beginner", "Intermediate", "Advanced"
+  category    String   // "conversation", "news", "story", "podcast", etc.
+  
+  // Audio content
+  audioUrl    String?  // URL to uploaded audio file (S3)
+  audioText   String   @db.Text // Text content of the audio
+  duration    Int?     // Duration in seconds
+  
+  // Audio options
+  voice       String   @default("american-male") // Voice type for TTS
+  speed       Float    @default(1.0) // Speech speed (0.5 to 2.0)
+  
+  // Questions
+  questions   Json     // Array of comprehension questions
+  
+  // Access control
+  isActive    Boolean  @default(true)
+  requiredLevel Int    @default(1)
+  
+  // Metadata
+  order       Int      @default(0)
+  tags        String[] // Array of tags
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  attempts    ListeningAttempt[]
+  
+  @@index([difficulty])
+  @@index([category])
+  @@index([isActive])
+  @@index([requiredLevel])
+}
+
+model ListeningAttempt {
+  id              String   @id @default(cuid())
+  userId          String
+  exerciseId      String
+  
+  // Attempt data
+  answers         Json     // User's answers
+  score           Float    // Score achieved (0-100)
+  timeSpent       Int      @default(0) // Time spent in seconds
+  pointsEarned    Int      @default(0)
+  completed       Boolean  @default(false)
+  
+  completedAt     DateTime @default(now())
+  
+  exercise        ListeningExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  
+  @@index([userId])
+  @@index([exerciseId])
+}
+
+// Independent Speaking Exercises
+model SpeakingExercise {
+  id          String   @id @default(cuid())
+  title       String
+  description String?  @db.Text
+  difficulty  String   // "Beginner", "Intermediate", "Advanced"
+  category    String   // "conversation", "presentation", "discussion", etc.
+  
+  // Prompt content
+  prompt      String   @db.Text // What the user should speak about
+  context     String?  @db.Text // Additional context or background
+  targetWords String[] // Target vocabulary or phrases
+  
+  // Evaluation criteria
+  minDuration Int      @default(30) // Minimum duration in seconds
+  maxDuration Int      @default(120) // Maximum duration in seconds
+  
+  // Access control
+  isActive    Boolean  @default(true)
+  requiredLevel Int    @default(1)
+  
+  // Metadata
+  order       Int      @default(0)
+  tags        String[] // Array of tags
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  attempts    SpeakingAttempt[]
+  
+  @@index([difficulty])
+  @@index([category])
+  @@index([isActive])
+  @@index([requiredLevel])
+}
+
+model SpeakingAttempt {
+  id              String   @id @default(cuid())
+  userId          String
+  exerciseId      String
+  
+  // Attempt data
+  transcription   String?  @db.Text // User's spoken text (transcribed)
+  audioUrl        String?  // URL to recorded audio (S3)
+  duration        Int      @default(0) // Duration in seconds
+  
+  // AI Feedback
+  feedback        Json?    // AI-generated feedback
+  score           Float?   // Score (0-100)
+  pointsEarned    Int      @default(0)
+  completed       Boolean  @default(false)
+  
+  completedAt     DateTime @default(now())
+  
+  exercise        SpeakingExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  
+  @@index([userId])
+  @@index([exerciseId])
+}
+
+// API Settings for external services
+model ApiSettings {
+  id          String   @id @default(cuid())
+  serviceName String   @unique // e.g., "google_tts", "openai", "elevenlabs"
+  apiKey      String   @db.Text // Encrypted API key
+  config      Json?    // Additional configuration as JSON
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

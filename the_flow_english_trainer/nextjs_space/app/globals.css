@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand colors based on new logo (Navy, Red, Cream) */
+    --flow-red: #DC2626;      /* Bold red from logo */
+    --flow-blue: #3B82F6;     /* Bright blue accent */
+    --flow-navy: #1e3a5f;     /* Deep navy blue from logo background */
+    --flow-cream: #f5f1e8;    /* Cream/beige from logo text */
+    --flow-white: #ffffff;
+    
+    /* Light mode colors */
+    --background: 248 250 252;
+    --foreground: 15 23 42;
+    
+    --card: 255 255 255;
+    --card-foreground: 15 23 42;
+    
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
+    
+    --primary: 30 64 175; /* Navy blue - --flow-navy */
+    --primary-foreground: 255 255 255;
+    
+    --secondary: 59 130 246; /* Blue - --flow-blue */
+    --secondary-foreground: 255 255 255;
+    
+    --muted: 241 245 249;
+    --muted-foreground: 71 85 105;
+    
+    --accent: 239 68 68; /* Red - --flow-red */
+    --accent-foreground: 255 255 255;
+    
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+    
+    --border: 226 232 240;
+    --input: 241 245 249; /* Light gray background for inputs */
+    --ring: 59 130 246; /* Blue ring */
+    
+    --radius: 0.75rem;
+  }
+  
+  .dark {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+    
+    --card: 30 41 59;
+    --card-foreground: 248 250 252;
+    
+    --popover: 30 41 59;
+    --popover-foreground: 248 250 252;
+    
+    --primary: 59 130 246;
+    --primary-foreground: 255 255 255;
+    
+    --secondary: 30 64 175;
+    --secondary-foreground: 255 255 255;
+    
+    --muted: 51 65 85;
+    --muted-foreground: 148 163 184;
+    
+    --accent: 239 68 68;
+    --accent-foreground: 255 255 255;
+    
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+    
+    --border: 51 65 85;
+    --input: 51 65 85;
+    --ring: 59 130 246;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Fix font smoothing for secondary foreground text */
+  .text-secondary-foreground {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Remove default yellow text selection highlight on mobile */
+  ::selection {
+    background-color: rgba(59, 130, 246, 0.2); /* Light blue instead of yellow */
+    color: inherit;
+  }
+  
+  ::-moz-selection {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: inherit;
+  }
+  
+  /* Prevent tap highlight color on mobile */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  /* Brand gradient utilities */
+  .gradient-flow {
+    background: linear-gradient(135deg, var(--flow-navy) 0%, var(--flow-blue) 50%, var(--flow-red) 100%);
+  }
+  
+  .gradient-flow-reverse {
+    background: linear-gradient(135deg, var(--flow-red) 0%, var(--flow-blue) 50%, var(--flow-navy) 100%);
+  }
+  
+  .gradient-flow-horizontal {
+    background: linear-gradient(90deg, var(--flow-navy) 0%, var(--flow-blue) 50%, var(--flow-red) 100%);
+  }
+  
+  /* Text colors */
+  .text-flow-navy {
+    color: var(--flow-navy);
+  }
+  
+  .text-flow-blue {
+    color: var(--flow-blue);
+  }
+  
+  .text-flow-red {
+    color: var(--flow-red);
+  }
+  
+  /* Background colors */
+  .bg-flow-navy {
+    background-color: var(--flow-navy);
+  }
+  
+  .bg-flow-blue {
+    background-color: var(--flow-blue);
+  }
+  
+  .bg-flow-red {
+    background-color: var(--flow-red);
+  }
+  
+  /* Border colors */
+  .border-flow-navy {
+    border-color: var(--flow-navy);
+  }
+  
+  .border-flow-blue {
+    border-color: var(--flow-blue);
+  }
+  
+  .border-flow-red {
+    border-color: var(--flow-red);
+  }
+  
+  /* Enhanced card with subtle shadow and hover effect */
+  .card-enhanced {
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-enhanced:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  /* Ensure good contrast for card descriptions */
+  .card-description-contrast {
+    color: rgb(71 85 105) !important;
+  }
+  
+  /* Button with gradient */
+  .btn-gradient {
+    background: linear-gradient(135deg, var(--flow-blue) 0%, var(--flow-navy) 100%);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(135deg, var(--flow-navy) 0%, var(--flow-blue) 100%);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  .btn-gradient-red {
+    background: linear-gradient(135deg, var(--flow-red) 0%, #dc2626 100%);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-gradient-red:hover {
+    background: linear-gradient(135deg, #dc2626 0%, var(--flow-red) 100%);
+    box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  /* Input with better styling */
+  .input-enhanced {
+    background-color: hsl(var(--input));
+    border: 2px solid hsl(var(--border));
+    transition: all 0.3s ease;
+  }
+  
+  .input-enhanced:focus {
+    border-color: var(--flow-blue);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    background-color: white;
+  }
+  
+  /* Animations */
+  .animate-count-up {
+    animation: countUp 1.5s ease-out;
+  }
+  
+  @keyframes countUp {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .floating {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Badge styles with brand colors */
+  .badge-navy {
+    background-color: var(--flow-navy);
+    color: white;
+  }
+  
+  .badge-blue {
+    background-color: var(--flow-blue);
+    color: white;
+  }
+  
+  .badge-red {
+    background-color: var(--flow-red);
+    color: white;
+  }
+  
+  /* American themed patterns */
+  .stars-pattern {
+    background-image: 
+      radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      radial-gradient(circle at 60% 70%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      radial-gradient(circle at 90% 20%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      radial-gradient(circle at 30% 80%, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 100px 100px, 120px 120px, 90px 90px, 110px 110px;
+    background-position: 0 0, 40px 60px, 80px 20px, 20px 70px;
+  }
+  
+  .stripes-pattern {
+    background: repeating-linear-gradient(
+      180deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 255, 255, 0.03) 10px,
+      rgba(255, 255, 255, 0.03) 20px
+    );
+  }
+  
+  .american-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--flow-navy) 0%,
+      var(--flow-navy) 35%,
+      var(--flow-red) 35%,
+      var(--flow-red) 65%,
+      var(--flow-white) 65%,
+      var(--flow-white) 100%
+    );
+  }
+  
+  .hero-pattern {
+    background-color: var(--flow-navy);
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='https://i.etsystatic.com/31715137/r/il/15690d/3577511217/il_570xN.3577511217_msf6.jpg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  .usa-stars {
+    position: relative;
+  }
+  
+  .usa-stars::before {
+    content: '★';
+    position: absolute;
+    color: var(--flow-red);
+    opacity: 0.15;
+    font-size: 100px;
+    top: -20px;
+    left: -30px;
+    transform: rotate(-15deg);
+    pointer-events: none;
+  }
+  
+  .usa-stars::after {
+    content: '★';
+    position: absolute;
+    color: var(--flow-blue);
+    opacity: 0.1;
+    font-size: 80px;
+    bottom: -20px;
+    right: -20px;
+    transform: rotate(25deg);
+    pointer-events: none;
+  }
+  
+  /* Patriotic border */
+  .patriotic-border {
+    border: 3px solid;
+    border-image: linear-gradient(
+      90deg,
+      var(--flow-navy) 0%,
+      var(--flow-red) 50%,
+      var(--flow-white) 100%
+    ) 1;
+  }
+  
+  /* Shimmer effect for special elements */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.3) 50%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  
+  /* Route 66 themed element */
+  .route-66-badge {
+    background: linear-gradient(135deg, #1e3a5f 0%, #DC2626 100%);
+    border: 2px solid var(--flow-cream);
+    color: var(--flow-cream);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
